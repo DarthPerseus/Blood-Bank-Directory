@@ -1,0 +1,170 @@
+MySQL GL
+
+Windows 7/10 - NPPR9-FWDCX-D2C8J-H872K-2YT43
+
+Applications:
+
+
+Types of Databases Management Systems:
+Hierarchical Database
+Network Database
+Relational Database
+Object-Oriented Database
+
+Hierarchical Database:
+In, Hierarchical Database data is structured in a tree like manner. Those data are stored in Hierarchical(top down or bottom up) order and also they are representated by parten-child relationship.
+In Hierarchical DBMS -> parent can have many children, but in the case of children have only one parent.
+
+Network Database:
+The concept of network database model allows all the child to have multiple partents and also it helps to solve the more complex models like as the orders/parts many t many relationship. Entiites are organized in a graph manner which have an option to be accessed through several paths.
+
+Relational Database:
+Relational DBMS are mostly used DBMS model bcoz of its flexibility & easy to implement nature. This model is worked on normalizing data in database. Rational model store the data in fixed structures & manipulated them using SQL.
+
+Object-Oriented Database:
+In Object-Oriented Model concept data are stored in the form of objects. It maintains a structure which is known as classes & display the data within that. It describes the databases as a collection of objects. It also stores data members values and operations both. 
+
+Advantages of Database Management System:
+DBMS has lots of techniques to store, manipulate, & retrieve data.
+DBMS considered as an most efficien handler to balance the data.
+A DBMS uses alot of powerful functions to store, manipulate, & retrieve data efficiently.
+Data Integrity & Security is one of the most strong part of DBMS.
+The DBMS use data integrity to protect data and maintains the privacy.
+Helps to reduced Appication Development Time.
+
+What is Relational Database Management System?
+Relational Database Management System(RDBMS)is used for the DBMS.
+The relationship between data files in relational RDBMS They connect the data & the different files sed by common data numbers or may be using key concepts.
+
+Properties of RDBMS:
+Values are Atomic in RDBMS
+Each row is different
+Columns are different
+Each column can have a common name
+Integrity constraints help to maintain the data consistency for multiple tables
+
+DBMS VS File System (Ref. Google)
+DBMS VS RDBMS (Ref. Google)
+
+What is Key in RDBMS?
+Key concept has an important role in RDBMS. This technique is used for identifying the unique rows from table and also help to establish relationship among the tables.
+
+Types of key in RDBMS:
+Primary Key: A Primary Key concept is basically a technique to classify unique tuples(rows) in a table.
+Primary key does not conatin null value.
+Value should be unique.
+Primary keys are not always to be single attribute/column and it can also be a set of more than one attributes/column.
+
+Super Key: A super key is a set of one of more columns or attributes to uniquely classify rows in a table.
+Super key is a superset of a candidate key.
+
+Candidate Key: A candidate key is a ste of one of moe columns or attributes to uniquely classify rows in a table.
+The all remaining attributes or columns except for the primary key are considered as a candidate key.
+The candidate keys are also as strong as the primary ey.
+
+Super Key VS Candidate Key (Ref. Google)
+
+Alternate Key: Out of all the candidates only one gets selected for primary key and rest keys are known as alternate keys or secondary keys.
+
+Composite Key: Composite Key consist of grester than one attribute to uniquely classify rows or records & tiples n a table.
+None of the column can perform as a primary key.
+So the combinatin of keys can be considered as composite key.
+
+Foreign Key: Foreign keys are the columns of a table which refers to the primary key or another table and basically they acts as a cross-reference between tables.
+
+What is Normalization?
+Mormalization is the process of organizing data to avoid duplication & redundancy.
+Helps to minimize duplicate data.
+To minimize or avoid data modification issues.
+To simpliy quieries.
+
+Types of Normalization.
+It is divided into few catagories:-
+
+First Normal Form (1NF): Each set of column have a unique value.
+It helps to prevent using the multiple columns to fetch the same row.
+Each should contain a primary key that identifies all the rows a unique data.
+The primary key is usually a single column, but if needed then more than one column can be combined to create a singe primary key.
+After implementing FNF may be the data redundancy increases but each row as a whole will be unique.
+
+Second Normal Form (2NF):
+In the 2NF, relational must be in 1NF.
+First Normal Form is not able to reduce the data redundancy.
+2NF follows that there will not be any partial dependency of any column on primary ey.
+It follows the concept of full funnctional dependency.
+
+Thrid Normal Form (3NF):
+A relation of a table will be in 3NF if it is already in 2NF and does not contain nay transitive partial dependency.
+3NF helps to redue the data duplication.
+It also support to achieve the data integrity.
+If table as no transitive dependency for non-prime attributes, then the relation should be in third normal form.
+
+Boyce and Codd Normal Form (BCNF):
+BCNF is basically the advance version of 3NF.
+It is more strict than 3NF.
+To use the law of BCNF we need to mke sure tha our data is already in 3NF.
+
+What is SQL?
+SQL stans for Structured Query Language.
+SQL helps to access & manipulate your database.
+
+Data Types in MySQL
+A data type s an attribute that specifies the type of data that the object can hold: integer data, character data, monetary data, date & time data, binary strings & so on.
+
+Character String
+Numeric
+Data & Time
+Binary
+
+
+Types of Command in MySQL
+DDL - Data defination language
+Helps to define the database schema
+Deals with description of the database
+Also have power to deal with creating & modifying the structure of database object.
+CREATE - this cmd is used to create the database. It also have some ibjects like table, index, function, views, store procedure & triggers
+DROP - DROP is mainly used to delete objects from the database
+ALTER - ALER is used to alter the structure of the database
+TRUNCATE - TRUNCATE cmd is used to remove all records from a table which includes all memory allocated for the records are removed.
+COMMENT - It is used to add comments to the data dictionary
+RENAME - This is used to rename an object existing in the database. 
+
+DQL - 
+DML - 
+DCL - 
+TCL - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**********************************************************************************
+
+https://www.fanfiction.net/Halo-and-Star-Wars-The-Clone-Wars-Crossovers/1342/4085/
+https://www.fanfiction.net/s/14147449/1/Star-Wars-Odyssey-of-the-Infinity
+
+https://www.coursera.org/learn/open-source-tools-for-data-science
+https://www.coursera.org/projects/analyze-social-media-python
+https://www.coursera.org/projects/scrape-job-postings-data-analyst
+https://www.coursera.org/projects/showcase-forecast-bikeshare-demand-using-time-series-models-in-r
+https://www.coursera.org/projects/showcase-build-and-deploy-a-stroke-prediction-model-with-r
+https://www.coursera.org/learn/multivariate-calculus-machine-learning/home/week/3
+https://www.coursera.org/my-learning?myLearningTab=IN_PROGRESS
+https://www.coursera.org/learn/foundations-of-cybersecurity/home/module/1
